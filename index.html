@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝐏𝐈𝐊𝐄𝐓 𝐗'𝐒𝐭𝐚𝐫𝟏𝟐𝟐</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            margin: 0;
+            color: #f3f7f3;
+            text-shadow: 0 0 10px #af4ca5, 0 0 20px #a74caf, 0 0 30px #af4c90;
+        }
+
+        .jadwal {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .hari {
+            background-color: #222;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            width: 250px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hari:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.9), 0 0 15px rgba(0, 255, 0, 0.6);
+        }
+
+        .hari h2 {
+            text-align: center;
+            margin: 0;
+            color: #d4e0d4;
+            text-shadow: 0 0 8px #af5b4c, 0 0 20px #a34caf;
+        }
+
+        .piket {
+            background-color: #333;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 8px;
+            color: #fff;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .piket:hover {
+            background-color: #444;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8), 0 0 15px rgba(255, 165, 0, 0.7);
+        }
+
+        .piket span {
+            font-weight: bold;
+            color: #fbfaf8;
+            text-shadow: 0 0 8px #ff9800, 0 0 10px #ff9800;
+        }
+
+        .piket:nth-child(odd) {
+            background-color: #444;
+        }
+
+        .piket:nth-child(even) {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>𝐉𝐀𝐃𝐖𝐀𝐋 𝐏𝐈𝐊𝐄𝐓 𝐗'𝐒𝐭𝐚𝐫𝟏𝟐𝟐 𝐂𝐋𝐀𝐒𝐒</h1>
+
+    <div class="jadwal">
+        <!-- Senin -->
+        <div class="hari">
+            <h2>Senin</h2>
+            <div class="piket"><span>07:00 - 12:00</span><br>Galang & Dzaki</div>
+            <div class="piket"><span>12:00 - 15:00</span><br>April & Nisa</div>
+        </div>
+
+        <!-- Selasa -->
+        <div class="hari">
+            <h2>Selasa</h2>
+            <div class="piket"><span>07:00 - 12:00</span><br>Kelvin & Atan</div>
+            <div class="piket"><span>12:00 - 15:00</span><br>Naefa & Jamil'</div>
+        </div>
+
+        <!-- Rabu -->
+        <div class="hari">
+            <h2>Rabu</h2>
+            <div class="piket"><span>07:00 - 12:00</span><br>Fajar & Yusron</div>
+            <div class="piket"><span>12:00 - 15:00</span><br>Nazwa & Ngisma</div>
+        </div>
+
+        <!-- Kamis -->
+        <div class="hari">
+            <h2>Kamis</h2>
+            <div class="piket"><span>07:00 - 12:00</span><br>Arzaq & Rafi</div>
+            <div class="piket"><span>12:00 - 15:00</span><br>Rachma & Akmal</div>
+        </div>
+
+        <!-- Jumat -->
+        <div class="hari">
+            <h2>Jumat</h2>
+            <div class="piket"><span>07:00 - 12:00</span><br>Wahid & Singgih</div>
+            <div class="piket"><span>12:00 - 15:00</span><br>Hanifah & Syarifah</div>
+        </div>
+
+        <!-- Sabtu -->
+        <div class="hari">
+            <h2>Sabtu</h2>
+            <div class="piket"><span>07:00 - 12:00</span><br>Rafi & Nadhif</div>
+            <div class="piket"><span>12:00 - 15:00</span><br>Syarifah</div>
+        </div>
+    </div>
+
+</body>
+</html>
